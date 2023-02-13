@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Resolver]">
+  <test thread-count="5" name="Regression(failed)">
+    <groups>
+      <run>
+        <include name="Regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="code.Tests.HomeTests">
+        <methods>
+          <include name="TC_102_verifyListItemAndBadgeValue"/>
+          <include name="TC_101_verifyEmailPasswordAndSignIn"/>
+          <include name="TC_105_waitForButtonAndVerifyMessage"/>
+          <include name="TC_103_verifyDropdown"/>
+          <include name="TC_104_verifyFirstButtonAndSecondButton"/>
+          <include name="TC_106_verifyTableInput"/>
+        </methods>
+      </class> <!-- code.Tests.HomeTests -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [Resolver] -->
